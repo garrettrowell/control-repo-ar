@@ -9,6 +9,6 @@ mod 'ansible',
   git:    'git@github.com:garrettrowell/puppet-ansible.git',
   branch: 'main'
 
-#mod 'apache',
-#  git:    'https://github.com/puppetlabs/puppetlabs-apache',
-#  branch: 'docs_experiment'
+mod 'par',
+  git:    'git@github.com:garrettrowell/puppet-par.git',
+  branch: 'main'
