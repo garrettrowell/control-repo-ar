@@ -11,4 +11,4 @@ mod 'ansible',
 
 mod 'par',
   git:    'git@github.com:garrettrowell/puppet-par.git',
-  branch: 'main'
+  branch: '001-ansible-playbook-runner'
