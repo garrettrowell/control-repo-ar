@@ -4,6 +4,6 @@ class profile::par_nginx {
     playbook_vars => {
       'nginx_start' => false,
     },
-    logout        => true,
+    logoutput     => true,
   }
 }
