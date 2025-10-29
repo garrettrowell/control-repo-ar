@@ -11,7 +11,7 @@ mod 'ansible',
 
 mod 'par',
   git:    'git@github.com:garrettrowell/puppet-par.git',
-  branch: '001-ansible-playbook-runner'
+  branch: 'quick_test'
 
 mod 'paw_nginxinc_nginx_core',
   git:    'git@github.com:the-yorkshire-allen/paw_nginxinc_nginx_core.git',
