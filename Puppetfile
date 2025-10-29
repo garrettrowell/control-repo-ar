@@ -14,5 +14,5 @@ mod 'par',
   branch: 'quick_test'
 
 mod 'paw_nginxinc_nginx_core',
-  git:    'git@github.com:the-yorkshire-allen/paw_nginxinc_nginx_core.git',
-  branch: 'main'
+  git:    'git@github.com:garrettrowell/paw_nginxinc_nginx_core.git',
+  branch: 'quick_test'
