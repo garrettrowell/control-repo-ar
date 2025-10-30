@@ -11,8 +11,8 @@ mod 'ansible',
 
 mod 'par',
   git:    'git@github.com:garrettrowell/puppet-par.git',
-  branch: 'quick_test'
+  branch: 'main'
 
 mod 'paw_nginxinc_nginx_core',
   git:    'git@github.com:garrettrowell/paw_nginxinc_nginx_core.git',
-  branch: 'quick_test'
+  branch: 'main'
