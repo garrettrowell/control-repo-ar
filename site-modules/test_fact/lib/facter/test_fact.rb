@@ -4,7 +4,7 @@ Facter.add(:test_fact) do
     test_fact['key1'] = 'value1'
     test_fact['key2'] = Facter::Core::Execution.execute('/usr/bin/uname -a', on_fail: nil)
     key3 = Facter::Core::Execution.execute('/usr/bin/idontexist', on_fail: nil)
-    test_fact['key3'] = key3 unless key3.empty?
+    test_fact['key3'] = key3 unless key3.nil? || key3.empty?
     test_fact['key4'] = Facter::Core::Execution.execute('/usr/bin/idontexist', on_fail: '')
     test_fact
   end
