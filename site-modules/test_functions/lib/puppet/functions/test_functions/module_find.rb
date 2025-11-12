@@ -4,6 +4,6 @@ Puppet::Functions.create_function(:'test_functions::module_find') do
   end
 
   def module_find(module_name)
-    Puppet::Module.find(module_name, closure_scope.compiler.environment)
+    Puppet::Module.find(module_name, closure_scope.compiler.environment).inspect
   end
 end
