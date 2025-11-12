@@ -1,4 +1,4 @@
-Puppet::Functions.create_function(:module_find) do
+Puppet::Functions.create_function(:'test_functions::module_find') do
   dispatch :module_find do
     param 'String', :module_name
   end
