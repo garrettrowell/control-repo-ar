@@ -1,5 +1,5 @@
 Puppet::Functions.create_function(:module_find) do
-  dispacth :module_find do
+  dispatch :module_find do
     param 'String', :module_name
   end
 
